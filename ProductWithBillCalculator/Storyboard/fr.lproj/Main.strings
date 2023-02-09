@@ -1,0 +1,177 @@
+
+/* Class = "UILabel"; text = "Terms of Use"; ObjectID = "0WE-qG-ZGH"; */
+"0WE-qG-ZGH.text" = "Terms of Use";
+
+/* Class = "UIButton"; normalTitle = "SUBMIT"; ObjectID = "0XU-2i-lh5"; */
+"0XU-2i-lh5.normalTitle" = "SUBMIT";
+
+/* Class = "UILabel"; text = "Please click here if you are more then 4 years"; ObjectID = "3k1-s9-5pw"; */
+"3k1-s9-5pw.text" = "Please click here if you are more then 4 years";
+
+/* Class = "UIViewController"; title = "ForgotPasswordViewController"; ObjectID = "6UQ-8d-cWq"; */
+"6UQ-8d-cWq.title" = "ForgotPasswordViewController";
+
+/* Class = "UILabel"; text = "Quantity"; ObjectID = "6lG-8H-0ub"; */
+"6lG-8H-0ub.text" = "Quantity";
+
+/* Class = "UIButton"; normalTitle = "SAVE"; ObjectID = "7qX-Hc-cZn"; */
+"7qX-Hc-cZn.normalTitle" = "SAVE";
+
+/* Class = "UIButton"; normalTitle = "Check SubScription"; ObjectID = "AH6-d9-Jph"; */
+"AH6-d9-Jph.normalTitle" = "Check SubScription";
+
+/* Class = "UILabel"; text = "january 2021 "; ObjectID = "Axx-yB-f8p"; */
+"Axx-yB-f8p.text" = "january 2021 ";
+
+/* Class = "UITextField"; placeholder = "Password"; ObjectID = "B4a-wG-mj4"; */
+"B4a-wG-mj4.placeholder" = "Password";
+
+/* Class = "UILabel"; text = "Quantity"; ObjectID = "BE7-Na-bNo"; */
+"BE7-Na-bNo.text" = "Quantity";
+
+/* Class = "UILabel"; text = "OR"; ObjectID = "EX7-Jy-bP1"; */
+"EX7-Jy-bP1.text" = "OR";
+
+/* Class = "UITextField"; placeholder = "Mobile Number"; ObjectID = "ElS-fX-dvQ"; */
+"ElS-fX-dvQ.placeholder" = "Mobile Number";
+
+/* Class = "UIButton"; normalTitle = "LOGIN"; ObjectID = "EzQ-Ms-1Jq"; */
+"EzQ-Ms-1Jq.normalTitle" = "LOGIN";
+
+/* Class = "UILabel"; text = "Item"; ObjectID = "F0p-wA-NJS"; */
+"F0p-wA-NJS.text" = "Item";
+
+/* Class = "UITextField"; placeholder = "Select Name"; ObjectID = "Fyb-37-qQl"; */
+"Fyb-37-qQl.placeholder" = "Select Name";
+
+/* Class = "UITextField"; placeholder = "Contact Number"; ObjectID = "IA4-MT-ckh"; */
+"IA4-MT-ckh.placeholder" = "Contact Number";
+
+/* Class = "UILabel"; text = "Forgot Password?"; ObjectID = "IxX-f4-oTq"; */
+"IxX-f4-oTq.text" = "Forgot Password?";
+
+/* Class = "UITextField"; placeholder = "GST %"; ObjectID = "Nrh-zi-Fnp"; */
+"Nrh-zi-Fnp.placeholder" = "GST %";
+
+/* Class = "UITextField"; placeholder = "GST Number"; ObjectID = "ObP-gw-yEu"; */
+"ObP-gw-yEu.placeholder" = "GST Number";
+
+/* Class = "UITextField"; placeholder = "Business Type"; ObjectID = "Qk4-3h-1GF"; */
+"Qk4-3h-1GF.placeholder" = "Business Type";
+
+/* Class = "UITextField"; placeholder = "Email"; ObjectID = "Qsb-hv-hKw"; */
+"Qsb-hv-hKw.placeholder" = "Email";
+
+/* Class = "UILabel"; text = "Don't have an account?"; ObjectID = "S0D-Se-KTP"; */
+"S0D-Se-KTP.text" = "Don't have an account?";
+
+/* Class = "UIViewController"; title = "TheamPickerViewController"; ObjectID = "S6f-3t-3iP"; */
+"S6f-3t-3iP.title" = "TheamPickerViewController";
+
+/* Class = "UILabel"; text = "SEEQyou"; ObjectID = "SAu-1E-e17"; */
+"SAu-1E-e17.text" = "SEEQyou";
+
+/* Class = "UILabel"; text = "I have  accept Terms of Uses ,Privacy policy  and Stander Apple Terms of Use(EULA)."; ObjectID = "TN5-hs-Td4"; */
+"TN5-hs-Td4.text" = "I have  accept Terms of Uses ,Privacy policy  and Stander Apple Terms of Use(EULA).";
+
+/* Class = "UILabel"; text = "Price"; ObjectID = "TT8-Kc-keV"; */
+"TT8-Kc-keV.text" = "Price";
+
+/* Class = "UITextField"; placeholder = "Email id/Mobile Number"; ObjectID = "TWg-7m-ihd"; */
+"TWg-7m-ihd.placeholder" = "Email id/Mobile Number";
+
+/* Class = "UILabel"; text = "Total Amount Spend"; ObjectID = "Tt3-Kd-s3K"; */
+"Tt3-Kd-s3K.text" = "Total Amount Spend";
+
+/* Class = "UILabel"; text = "Price"; ObjectID = "UaO-UL-JRc"; */
+"UaO-UL-JRc.text" = "Price";
+
+/* Class = "UIViewController"; title = "ChangePasswordViewController"; ObjectID = "Uql-e9-kZT"; */
+"Uql-e9-kZT.title" = "ChangePasswordViewController";
+
+/* Class = "UITextField"; placeholder = "Business Address"; ObjectID = "W9L-Zw-5Uo"; */
+"W9L-Zw-5Uo.placeholder" = "Business Address";
+
+/* Class = "UIButton"; normalTitle = "SUBMIT"; ObjectID = "Wat-q5-9nJ"; */
+"Wat-q5-9nJ.normalTitle" = "SUBMIT";
+
+/* Class = "UITextField"; placeholder = "Business Name"; ObjectID = "aCs-Gp-sgM"; */
+"aCs-Gp-sgM.placeholder" = "Business Name";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "aWv-ae-BZ8"; */
+"aWv-ae-BZ8.text" = "Label";
+
+/* Class = "UIViewController"; title = "ViewController"; ObjectID = "bKl-m6-UOC"; */
+"bKl-m6-UOC.title" = "ViewController";
+
+/* Class = "UILabel"; text = "Signup here."; ObjectID = "bQC-6n-TPO"; */
+"bQC-6n-TPO.text" = "Signup here.";
+
+/* Class = "UITextField"; placeholder = "Re-Enter Password"; ObjectID = "fO4-Vv-FRF"; */
+"fO4-Vv-FRF.placeholder" = "Re-Enter Password";
+
+/* Class = "UITextField"; placeholder = "Re-enter Password"; ObjectID = "gSb-Y4-41a"; */
+"gSb-Y4-41a.placeholder" = "Re-enter Password";
+
+/* Class = "UITextField"; placeholder = "RelationShip"; ObjectID = "hmJ-uE-Sdi"; */
+"hmJ-uE-Sdi.placeholder" = "RelationShip";
+
+/* Class = "UIButton"; normalTitle = "SUBMIT"; ObjectID = "hsG-X2-WO2"; */
+"hsG-X2-WO2.normalTitle" = "SUBMIT";
+
+/* Class = "UIViewController"; title = "FamilyDetailsViewController"; ObjectID = "i65-LW-6gw"; */
+"i65-LW-6gw.title" = "FamilyDetailsViewController";
+
+/* Class = "UITextField"; placeholder = "Old Password"; ObjectID = "ibx-cZ-sRF"; */
+"ibx-cZ-sRF.placeholder" = "Old Password";
+
+/* Class = "UIViewController"; title = "HomeViewController"; ObjectID = "kKk-oo-dFg"; */
+"kKk-oo-dFg.title" = "HomeViewController";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "mdJ-Ql-RUH"; */
+"mdJ-Ql-RUH.text" = "Label";
+
+/* Class = "UITextField"; placeholder = "Occupation"; ObjectID = "n23-Aw-Xqo"; */
+"n23-Aw-Xqo.placeholder" = "Occupation";
+
+/* Class = "UIViewController"; title = "TermsAndConditionViewController"; ObjectID = "ngH-cJ-6EN"; */
+"ngH-cJ-6EN.title" = "TermsAndConditionViewController";
+
+/* Class = "UITextField"; placeholder = "New Password"; ObjectID = "o03-wL-tA1"; */
+"o03-wL-tA1.placeholder" = "New Password";
+
+/* Class = "UIViewController"; title = "SignUpViewController"; ObjectID = "oKL-Gv-BhV"; */
+"oKL-Gv-BhV.title" = "SignUpViewController";
+
+/* Class = "UIViewController"; title = "SideMenuViewController"; ObjectID = "tXu-UL-zIG"; */
+"tXu-UL-zIG.title" = "SideMenuViewController";
+
+/* Class = "UILabel"; text = "Price"; ObjectID = "ule-eq-5vc"; */
+"ule-eq-5vc.text" = "Price";
+
+/* Class = "UILabel"; text = "If you want to take back up of your database then please make it iCloude Storage on"; ObjectID = "vHN-cD-Nqz"; */
+"vHN-cD-Nqz.text" = "If you want to take back up of your database then please make it iCloude Storage on";
+
+/* Class = "UIViewController"; title = "SWRevealViewController"; ObjectID = "vLP-Ag-Z3A"; */
+"vLP-Ag-Z3A.title" = "SWRevealViewController";
+
+/* Class = "UITextField"; placeholder = "Email"; ObjectID = "vfg-iK-CeR"; */
+"vfg-iK-CeR.placeholder" = "Email";
+
+/* Class = "UITextField"; placeholder = "Password"; ObjectID = "vxo-rz-Yvx"; */
+"vxo-rz-Yvx.placeholder" = "Password";
+
+/* Class = "UITextField"; placeholder = "Mobile Number"; ObjectID = "wIg-tY-0qj"; */
+"wIg-tY-0qj.placeholder" = "Mobile Number";
+
+/* Class = "UILabel"; text = "Speech Setup"; ObjectID = "xAx-OE-Uud"; */
+"xAx-OE-Uud.text" = "Speech Setup";
+
+/* Class = "UITextField"; placeholder = "Name"; ObjectID = "yCW-gR-yls"; */
+"yCW-gR-yls.placeholder" = "Name";
+
+/* Class = "UIButton"; normalTitle = "SUBMIT"; ObjectID = "yOT-y7-C9I"; */
+"yOT-y7-C9I.normalTitle" = "SUBMIT";
+
+/* Class = "UILabel"; text = "Name"; ObjectID = "zgr-UZ-CIV"; */
+"zgr-UZ-CIV.text" = "Name";

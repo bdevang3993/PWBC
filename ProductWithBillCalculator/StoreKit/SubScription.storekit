@@ -1,0 +1,64 @@
+{
+  "identifier" : "266952FE",
+  "nonRenewingSubscriptions" : [
+
+  ],
+  "products" : [
+
+  ],
+  "settings" : {
+
+  },
+  "subscriptionGroups" : [
+    {
+      "id" : "97BF1B15",
+      "localizations" : [
+
+      ],
+      "name" : "PWBCGroup",
+      "subscriptions" : [
+        {
+          "adHocOffers" : [
+            {
+              "displayPrice" : "1.99",
+              "internalID" : "267B4D96",
+              "offerID" : "",
+              "paymentMode" : "payUpFront",
+              "referenceName" : "PWBC",
+              "subscriptionPeriod" : "P1Y"
+            }
+          ],
+          "codeOffers" : [
+
+          ],
+          "displayPrice" : "1.99",
+          "familyShareable" : false,
+          "groupNumber" : 1,
+          "internalID" : "8F34AEB8",
+          "introductoryOffer" : {
+            "displayPrice" : "1.99",
+            "internalID" : "27407A6E",
+            "paymentMode" : "payUpFront",
+            "subscriptionPeriod" : "P1Y"
+          },
+          "localizations" : [
+            {
+              "description" : "",
+              "displayName" : "",
+              "locale" : "en_US"
+            }
+          ],
+          "productID" : "merchant.billCalculatorMerchant.PWBC",
+          "recurringSubscriptionPeriod" : "P1Y",
+          "referenceName" : "PWBC",
+          "subscriptionGroupID" : "97BF1B15",
+          "type" : "RecurringSubscription"
+        }
+      ]
+    }
+  ],
+  "version" : {
+    "major" : 1,
+    "minor" : 2
+  }
+}

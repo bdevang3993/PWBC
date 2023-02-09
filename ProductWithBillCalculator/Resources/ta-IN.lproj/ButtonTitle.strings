@@ -1,0 +1,18 @@
+/* 
+  ButtonTitle.strings
+  ProductWithBillCalculator
+
+  Created by devang bhavsar on 10/01/22.
+  
+*/
+"ImagePicker" = "படத் தேர்வி";
+"SAVE" = "சேமிக்கவும்";
+"PAY" = "செலுத்து";
+"SUBMIT" = "சமர்ப்பிக்கவும்";
+"UPDATE" = "புதுப்பிக்கவும்";
+"LOGIN" = "உள்நுழைய";
+"Check SubScription" = "சந்தாவை சரிபார்க்கவும்";
+"Restore Purchase" = "வாங்கியதை மீட்டெடுக்கவும்";
+"Subscribe for  179.0($1.99)/Year" = "179.0($1.99)/ஆண்டுக்கு குழுசேரவும்";
+"Subscribe" = "பதிவு";
+"Cancel Subscription" = "சந்தாவை ரத்துசெய்";

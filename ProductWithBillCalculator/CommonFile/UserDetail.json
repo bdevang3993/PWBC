@@ -1,0 +1,10 @@
+{"collection":"UserCollection","BusinessDetails":[{"businessId":0,"businessName":"PWBC","businessType":"Genral Store(Kirana),Farsan Mart","businessAddress":"Nadiad","contactNumber":"","email":"bdevang86@gmail.com","gstCharge":"0","gstNumber":"","password":"123456"}],
+    "Product":[{"iteamName":"Khaman","numberOfPice":1,"price":20.0,"productId":4,"qauntity":0.0,"quantityPerUnit":100.0,"quantityType":"Gm"},{"iteamName":"parleg 100gm","numberOfPice":1,"price":5.0,"productId":6,"qauntity":0.0,"quantityPerUnit":1.0,"quantityType":"Piece"},{"iteamName":"gota","numberOfPice":1,"price":30.0,"productId":2,"qauntity":0.0,"quantityPerUnit":100.0,"quantityType":"Gm"},{"iteamName":"Chocalate biscuits 100g","numberOfPice":1,"price":13.0,"productId":5,"qauntity":0.0,"quantityPerUnit":1.0,"quantityType":"Piece"},{"iteamName":"water bottal 1ltd","numberOfPice":1,"price":20.0,"productId":1,"qauntity":0.0,"quantityPerUnit":1.0,"quantityType":"Piece"},{"iteamName":"papadi","numberOfPice":1,"price":32.0,"productId":3,"qauntity":0.0,"quantityPerUnit":100.0,"quantityType":"Gm"}],"CustomerDetail":[{"customerId":1,"customerName":"David","emailId":"David@gmail.com","mobileNumber":"5556106679"},{"customerId":2,"customerName":"John","emailId":"John@gmail.com","mobileNumber":"8885555512"}],
+    "LicenceDetail":[
+    {"lastDate":"11/11/2021","licenceid":1,"licenceImage":"","licenceName":"Food & Drugs","licenceNumber":"fdpm1234wwsd","paymentDate":"01/11/2019","price":"500","registerDate":"01/11/2019"}],"OrderDetail":[
+    {"advance":2000.0,"customerNumber":"8885555512","date":"20/11/2021","pickupNumber":"888555175","productDetailId":7,"remains":1000.0,"time":"11:00 AM"}],"PayerDetails":[
+    {"id":0,"name":"Gokul farsan mart","strUrl":"upi://pay?pa=gpay-11185357621@okbizaxis&mc=5399&pn=Google%20Pay%20Merchant&oobe=fos123&qrst=stk&tr=1185357621&cu=INR"}],
+    "ProductDetailsData":[{"productDetailId":7,"customerId":2,"productId":2,"customerName":"John","iteamName":"gota","paiedDate":"","price":30.0,"quantity":1000.0,"status":"Borrow"}]
+}
+
+

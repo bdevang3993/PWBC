@@ -1,0 +1,18 @@
+/* 
+  ButtonTitle.strings
+  ProductWithBillCalculator
+
+  Created by devang bhavsar on 10/01/22.
+  
+*/
+"ImagePicker" = "છબી પીકર";
+"SAVE" = "સાચવો";
+"UPDATE" = "અપડેટ કરો";
+"PAY" = "ચુકવો";
+"SUBMIT" = "સબમિટ કરો";
+"LOGIN" = "પ્રવેશ કરો";
+"Check SubScription" = "સબ્સ્ક્રિપ્શન તપાસો";
+"Restore Purchase" = "પુનઃસ્થાપિત ખરીદી";
+"Subscribe for  179.0($1.99)/Year" = "179.0($1.99)/વર્ષ માટે સબ્સ્ક્રાઇબ કરો";
+"Subscribe" = "સબ્સ્ક્રાઇબ કરો";
+"Cancel Subscription" = "ઉમેદવારી રદ કરો";

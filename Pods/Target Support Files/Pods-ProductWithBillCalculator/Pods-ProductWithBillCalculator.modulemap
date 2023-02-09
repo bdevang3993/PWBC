@@ -1,0 +1,6 @@
+framework module Pods_ProductWithBillCalculator {
+  umbrella header "Pods-ProductWithBillCalculator-umbrella.h"
+
+  export *
+  module * { export * }
+}

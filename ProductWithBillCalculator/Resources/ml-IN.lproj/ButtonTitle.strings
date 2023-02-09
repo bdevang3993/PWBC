@@ -1,0 +1,18 @@
+/* 
+  ButtonTitle.strings
+  ProductWithBillCalculator
+
+  Created by devang bhavsar on 10/01/22.
+  
+*/
+"ImagePicker" = "ഇമേജ് പിക്കർ";
+"SAVE" = "രക്ഷിക്കും";
+"PAY" = "പണം നൽകുക";
+"SUBMIT" = "സമർപ്പിക്കുക";
+"UPDATE" = "അപ്ഡേറ്റ് ചെയ്യുക";
+"LOGIN" = "ലോഗിൻ";
+"Check SubScription" = "സബ്സ്ക്രിപ്ഷൻ പരിശോധിക്കുക";
+"Restore Purchase" = "വാങ്ങൽ പുനഃസ്ഥാപിക്കുക";
+"Subscribe for  179.0($1.99)/Year" = "179.0($1.99)/വർഷം സബ്‌സ്‌ക്രൈബ് ചെയ്യുക";
+"Subscribe" = "സബ്സ്ക്രൈബ് ചെയ്യുക";
+"Cancel Subscription" = "സബ്‌സ്‌ക്രിപ്‌ഷൻ റദ്ദാക്കുക";

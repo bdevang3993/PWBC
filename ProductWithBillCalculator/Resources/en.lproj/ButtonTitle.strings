@@ -1,0 +1,18 @@
+/* 
+  ButtonTitle.strings
+  ProductWithBillCalculator
+
+  Created by devang bhavsar on 10/01/22.
+  
+*/
+"ImagePicker" = "Image Picker";
+"SAVE" = "SAVE";
+"PAY" = "PAY";
+"SUBMIT" = "SUBMIT";
+"UPDATE" = "UPDATE";
+"LOGIN" = "LOGIN";
+"Check SubScription" = "Check SubScription";
+"Restore Purchase" = "Restore Purchase";
+"Subscribe for  179.0($1.99)/Year" = "Subscribe for  179.0($1.99)/Year";
+"Subscribe" = "Subscribe";
+"Cancel Subscription" = "Cancel Subscription";

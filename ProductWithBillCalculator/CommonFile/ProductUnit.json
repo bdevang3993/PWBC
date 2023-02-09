@@ -1,0 +1,21 @@
+{"collection":"UnitCollection","Units":[
+{"type":"FMCG","values":["Unit","Gm","Kg","Lt","Ml"]},
+{"type":"Genral Store(Kirana)","values":["Unit","Gm","Kg","Lt","Ml","Box","Pkg","Piece"]},
+{"type":"Farsan Mart","values":["Unit","Gm","Kg","Pkg","Piece"]},
+{"type":"Hotel","values":["Gm","Kg","Piece","Box","Unit","Lt","Ml","Pkg","Plate"]},
+{"type":"Oil Store","values":["Lt","Ml","Piece"]},
+{"type":"Dairy","values":["Gm","Kg","Lt","Ml"]},
+{"type":"Sweet Shop","values":["Gm","Kg","Lt","Ml"]},
+{"type":"Medical","values":["Tablet","Bottal","Piece","Box"]},
+{"type":"Photo Studio","values":["Size"]},
+{"type":"Fitness","values":["Kg","Machine"]},
+{"type":"Gift Shop","values":["Piece"]},
+{"type":"Courier Services","values":["Gm","Kg"]},
+{"type":"Book Stall","values":["Piece"]},
+{"type":"Fruit and Vegitables","values":["Gm","Kg","Piece"]},
+{"type":"Ice cream","values":["Gm","Kg","Cup"]},
+{"type":"Water supplier","values":["Can","Lt","Ml"]},
+{"type":"Bakery","values":["Can","Lt","Ml","Pkg","Gm","Kg"]},
+{"type":"Jwellers","values":["Gm","Kg"]}
+]}
+

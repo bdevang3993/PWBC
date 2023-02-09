@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="17709" systemVersion="20B50" minimumToolsVersion="Automatic" sourceLanguage="Swift" usedWithCloudKit="YES" userDefinedModelVersionIdentifier="">
+    <entity name="BillDescription" representedClassName="BillDescription" syncable="YES">
+        <attribute name="amount" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="billId" optional="YES" attributeType="Double" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="billImage" optional="YES" attributeType="Binary"/>
+        <attribute name="billNumber" optional="YES" attributeType="String"/>
+        <attribute name="customerName" optional="YES" attributeType="String"/>
+        <attribute name="customerNumber" optional="YES" attributeType="String"/>
+        <attribute name="date" optional="YES" attributeType="String"/>
+        <attribute name="isPaied" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+    </entity>
+    <entity name="BusinessDetails" representedClassName="BusinessDetails" syncable="YES">
+        <attribute name="businessId" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="businessName" optional="YES" attributeType="String"/>
+        <attribute name="businessType" optional="YES" attributeType="String"/>
+        <attribute name="busniessAddress" optional="YES" attributeType="String"/>
+        <attribute name="contactNumber" optional="YES" attributeType="String"/>
+        <attribute name="emailId" optional="YES" attributeType="String"/>
+        <attribute name="gstCharge" optional="YES" attributeType="String"/>
+        <attribute name="gstInNumber" optional="YES" attributeType="String"/>
+        <attribute name="password" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="CustomerDetail" representedClassName="CustomerDetail" syncable="YES">
+        <attribute name="customerId" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="customerName" optional="YES" attributeType="String"/>
+        <attribute name="emailId" optional="YES" attributeType="String"/>
+        <attribute name="mobileNumber" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="LicenceDetail" representedClassName="LicenceDetail" syncable="YES">
+        <attribute name="lastDate" optional="YES" attributeType="String"/>
+        <attribute name="licenceid" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="licenceImage" optional="YES" attributeType="Binary"/>
+        <attribute name="licenceName" optional="YES" attributeType="String"/>
+        <attribute name="licenceNumber" optional="YES" attributeType="String"/>
+        <attribute name="paymentDate" optional="YES" attributeType="String"/>
+        <attribute name="price" optional="YES" attributeType="String"/>
+        <attribute name="registerDate" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="OrderDetail" representedClassName="OrderDetail" syncable="YES">
+        <attribute name="advance" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="customerNumber" optional="YES" attributeType="String"/>
+        <attribute name="date" optional="YES" attributeType="String"/>
+        <attribute name="pickupNumber" optional="YES" attributeType="String"/>
+        <attribute name="productDetailId" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="remains" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="time" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="PayerDetails" representedClassName="PayerDetails" syncable="YES">
+        <attribute name="id" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="name" optional="YES" attributeType="String"/>
+        <attribute name="strUrl" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="Product" representedClassName="Product" syncable="YES">
+        <attribute name="iteamName" optional="YES" attributeType="String"/>
+        <attribute name="numberOfPice" optional="YES" attributeType="Integer 64" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="price" optional="YES" attributeType="Double" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="productId" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="qauntity" optional="YES" attributeType="Double" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="qauntityPerUnit" optional="YES" attributeType="Double" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="qauntityType" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="ProductDetails" representedClassName="ProductDetails" syncable="YES">
+        <attribute name="billNumber" optional="YES" attributeType="String"/>
+        <attribute name="customerId" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="customerName" optional="YES" attributeType="String"/>
+        <attribute name="date" optional="YES" attributeType="String"/>
+        <attribute name="iteamName" optional="YES" attributeType="String"/>
+        <attribute name="numberOfPice" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="paiedDate" optional="YES" attributeType="String"/>
+        <attribute name="price" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="productDetailId" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="productId" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="quantity" optional="YES" attributeType="String"/>
+        <attribute name="status" optional="YES" attributeType="String"/>
+    </entity>
+    <elements>
+        <element name="BillDescription" positionX="-54" positionY="99" width="128" height="149"/>
+        <element name="BusinessDetails" positionX="-54" positionY="18" width="128" height="164"/>
+        <element name="CustomerDetail" positionX="-54" positionY="45" width="128" height="89"/>
+        <element name="LicenceDetail" positionX="-54" positionY="90" width="128" height="149"/>
+        <element name="OrderDetail" positionX="-54" positionY="99" width="128" height="134"/>
+        <element name="PayerDetails" positionX="-54" positionY="99" width="128" height="74"/>
+        <element name="Product" positionX="-63" positionY="-18" width="128" height="134"/>
+        <element name="ProductDetails" positionX="-45" positionY="54" width="128" height="209"/>
+    </elements>
+</model>
