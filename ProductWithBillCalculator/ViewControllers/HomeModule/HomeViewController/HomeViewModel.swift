@@ -210,29 +210,29 @@ extension HomeViewController: FloatyDelegate {
             }
         }
         
-        floaty.addItem("Retrive Data Added".localized(), icon: UIImage(named: "product")) {item in
-            DispatchQueue.main.async {
-                let alertController = UIAlertController(title: kAppName, message: "Are you sure you have to Retrive Data if you have didn't store current data then please save first this data".localized() + "?", preferredStyle: .alert)
-                // Create the actions
-                let okAction = UIAlertAction(title: "OK".localized(), style: UIAlertAction.Style.default) {
-                    UIAlertAction in
-                    if self.txtName.text!.count > 0 {
-                        self.getAllDataFromDB(name: self.txtName.text!)
-                    } else {
-                        Alert().showAlert(message: "please select".localized() + " " + "Customer".localized() + " " + "Name".localized() , viewController: self)
-                    }
-                }
-                let cancelAction = UIAlertAction(title: "Cancel".localized(), style: UIAlertAction.Style.default) {
-                    UIAlertAction in
-                    NSLog("Cancel Pressed")
-                }
-                // Add the actions
-                alertController.addAction(okAction)
-                alertController.addAction(cancelAction)
-                // Present the controller
-                self.present(alertController, animated: true, completion: nil)
-            }
-        }
+//        floaty.addItem("Retrive Data Added".localized(), icon: UIImage(named: "product")) {item in
+//            DispatchQueue.main.async {
+//                let alertController = UIAlertController(title: kAppName, message: "Are you sure you have to Retrive Data if you have didn't store current data then please save first this data".localized() + "?", preferredStyle: .alert)
+//                // Create the actions
+//                let okAction = UIAlertAction(title: "OK".localized(), style: UIAlertAction.Style.default) {
+//                    UIAlertAction in
+//                    if self.txtName.text!.count > 0 {
+//                        self.getAllDataFromDB(name: self.txtName.text!)
+//                    } else {
+//                        Alert().showAlert(message: "please select".localized() + " " + "Customer".localized() + " " + "Name".localized() , viewController: self)
+//                    }
+//                }
+//                let cancelAction = UIAlertAction(title: "Cancel".localized(), style: UIAlertAction.Style.default) {
+//                    UIAlertAction in
+//                    NSLog("Cancel Pressed")
+//                }
+//                // Add the actions
+//                alertController.addAction(okAction)
+//                alertController.addAction(cancelAction)
+//                // Present the controller
+//                self.present(alertController, animated: true, completion: nil)
+//            }
+//        }
         
         floaty.addItem(SideMenuTitle.speak.selectedString(), icon: UIImage(named: "mic")) {item in
             SpeachListner.objShared.viewController = self

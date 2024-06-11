@@ -73,7 +73,7 @@ class HomeViewController: UIViewController,UIGestureRecognizerDelegate {
         objHomeViewModel.tableView = tblDisplayData
         tblDisplayData.delegate = self
         tblDisplayData.dataSource = self
-        self.checkForSavedDate()
+        //self.checkForSavedDate()
         AppUpdaterMessage.getSingleton().showUpdateWithConfirmation()
         if isInternalUpdateOfView {
             currentPage = dateSelected

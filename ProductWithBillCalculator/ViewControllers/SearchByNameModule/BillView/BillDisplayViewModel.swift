@@ -7,9 +7,10 @@
 
 import UIKit
 import Floaty
-import Screenshots
+//import Screenshots
 import IQKeyboardManagerSwift
 import MessageUI
+import UIKit
 enum BillSelectionType {
    case save,share,message,mail,WhatsApp
    func selectedType() -> String {
@@ -124,7 +125,7 @@ extension BillDisplayViewController {
         let newDate:String = convertdateFromDate(date: date)
         let arrDate = newDate.split(separator: " ")
         lblDate.text = strSelectedDate//String(arrDate[0])
-        lblTime.text = String(arrDate[1] + arrDate[2])
+        lblTime.text = String(arrDate[1])
         lblThanks.adjustsFontSizeToFitWidth = true
         firstLater = firstLater.capitalized
         let strdate = convertMonthAndYearFromDate(date: date)
@@ -200,7 +201,8 @@ extension BillDisplayViewController {
     
     func checkForStatus() {
         if txtCustomerName.text!.count <= 0 {
-            Alert().showAlert(message: "please provide customer name".localized(), viewController: self)
+            txtCustomerName.text = "NA"
+//            Alert().showAlert(message: "please provide customer name".localized(), viewController: self)
         }
         let objData = arrProductDetialWithCustomer[0]
         let status = objData.status
@@ -233,8 +235,12 @@ extension BillDisplayViewController {
     
     func updateInProductData() {
         self.updateInProductDescription()
-        let image = self.screenshot()
-        self.saveInDatabase(image: image)
+        DispatchQueue.main.async {
+            let image = self.view.takeScreenshot()
+            //let image = self.screenshot()
+            self.saveInDatabase(image: image)
+        }
+        
     }
     
     
@@ -289,17 +295,8 @@ extension BillDisplayViewController {
         }
     }
     
-    func screenshot() -> UIImage{
-        imgBack.isHidden = true
-        let tableViewScreenShot = self.tblDisplayData.screenshot
-        let viewScreenShot:UIImage = self.viewDisplayData.screenshot!
-        let newImage:UIImage = viewScreenShot.mergeImage(image2: tableViewScreenShot!)
-        imgBack.isHidden = false
-        let userDefault = UserDefaults.standard
-        userDefault.set(objBillDisplayViewModel.billID, forKey: kBillId)
-        userDefault.synchronize()
-        return newImage
-    }
+//    
+    
     
     func shareImage(image:UIImage) {
         var qrcodeImage:UIImage?

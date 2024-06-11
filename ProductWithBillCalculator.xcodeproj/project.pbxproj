@@ -3,17 +3,15 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 52;
+	objectVersion = 54;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		880048832796B5CE001C513E /* OpenListNavigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 880048822796B5CE001C513E /* OpenListNavigation.swift */; };
-		8807E452270C289C00D36B7D /* Screenshots in Frameworks */ = {isa = PBXBuildFile; productRef = 8807E451270C289C00D36B7D /* Screenshots */; };
 		880CF8B42724054F00858507 /* NonConsumable.storekit in Resources */ = {isa = PBXBuildFile; fileRef = 880CF8B22724054F00858507 /* NonConsumable.storekit */; };
 		880CF8B52724054F00858507 /* SubScription.storekit in Resources */ = {isa = PBXBuildFile; fileRef = 880CF8B32724054F00858507 /* SubScription.storekit */; };
 		880CF8BA272405BB00858507 /* IAP_ProductIDs.plist in Resources */ = {isa = PBXBuildFile; fileRef = 880CF8B8272405BB00858507 /* IAP_ProductIDs.plist */; };
 		880CF8BB272405BB00858507 /* IAPManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 880CF8B9272405BB00858507 /* IAPManager.swift */; };
-		880CF8BE272409BB00858507 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 880CF8BD272409BB00858507 /* StoreKit.framework */; };
 		8812A35D27056C6000155423 /* AdvanceOrderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8812A35C27056C6000155423 /* AdvanceOrderViewController.swift */; };
 		8812A36027056E9F00155423 /* AdvanceOrderViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8812A35F27056E9F00155423 /* AdvanceOrderViewModel.swift */; };
 		8812A36327056EC500155423 /* AdvanceOrderModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8812A36227056EC500155423 /* AdvanceOrderModel.swift */; };
@@ -184,7 +182,6 @@
 		880CF8B32724054F00858507 /* SubScription.storekit */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = SubScription.storekit; sourceTree = "<group>"; };
 		880CF8B8272405BB00858507 /* IAP_ProductIDs.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = IAP_ProductIDs.plist; sourceTree = "<group>"; };
 		880CF8B9272405BB00858507 /* IAPManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IAPManager.swift; sourceTree = "<group>"; };
-		880CF8BD272409BB00858507 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
 		8812A35C27056C6000155423 /* AdvanceOrderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdvanceOrderViewController.swift; sourceTree = "<group>"; };
 		8812A35F27056E9F00155423 /* AdvanceOrderViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdvanceOrderViewModel.swift; sourceTree = "<group>"; };
 		8812A36227056EC500155423 /* AdvanceOrderModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdvanceOrderModel.swift; sourceTree = "<group>"; };
@@ -374,9 +371,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				880CF8BE272409BB00858507 /* StoreKit.framework in Frameworks */,
 				88671025271EC9310076348B /* CloudKit.framework in Frameworks */,
-				8807E452270C289C00D36B7D /* Screenshots in Frameworks */,
 				8B4C860E8A3C49D0AA3FFA83 /* Pods_ProductWithBillCalculator.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -387,7 +382,6 @@
 		880CF8B12724053800858507 /* StoreKit */ = {
 			isa = PBXGroup;
 			children = (
-				880CF8B22724054F00858507 /* NonConsumable.storekit */,
 				880CF8B32724054F00858507 /* SubScription.storekit */,
 			);
 			path = StoreKit;
@@ -530,6 +524,7 @@
 		882ED5EF2743815500CF55A5 /* SubscriptionModule */ = {
 			isa = PBXGroup;
 			children = (
+				880CF8B22724054F00858507 /* NonConsumable.storekit */,
 				882ED5F42743819E00CF55A5 /* SubscriptionViewModel.swift */,
 				882ED5F12743818500CF55A5 /* SubScriptionViewController.swift */,
 			);
@@ -1042,7 +1037,6 @@
 		C1718D363B7AE01E74FCA00D /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				880CF8BD272409BB00858507 /* StoreKit.framework */,
 				88671024271EC9310076348B /* CloudKit.framework */,
 				609FCC1A79E40D9F4459AA0B /* Pods_ProductWithBillCalculator.framework */,
 			);
@@ -1069,7 +1063,6 @@
 			);
 			name = ProductWithBillCalculator;
 			packageProductDependencies = (
-				8807E451270C289C00D36B7D /* Screenshots */,
 			);
 			productName = ProductWithBillCalculator;
 			productReference = 889F1C5726DDF49200F7BCAC /* ProductWithBillCalculator.app */;
@@ -1110,7 +1103,6 @@
 			);
 			mainGroup = 889F1C4E26DDF49200F7BCAC;
 			packageReferences = (
-				8807E450270C289C00D36B7D /* XCRemoteSwiftPackageReference "Screenshots" */,
 			);
 			productRefGroup = 889F1C5826DDF49200F7BCAC /* Products */;
 			projectDirPath = "";
@@ -1546,20 +1538,24 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = ProductWithBillCalculator/ProductWithBillCalculator.entitlements;
-				CODE_SIGN_IDENTITY = "iPhone Distribution: Devang bhavsar (JAC5BA3SM4)";
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				CODE_SIGN_STYLE = Manual;
-				CURRENT_PROJECT_VERSION = 10;
+				CURRENT_PROJECT_VERSION = 3;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEVELOPMENT_TEAM = JAC5BA3SM4;
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = JAC5BA3SM4;
 				INFOPLIST_FILE = ProductWithBillCalculator/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.1;
+				MARKETING_VERSION = 1.2;
+				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = com.dev.ProductWithBillCalculator;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = PWBC_Distribution;
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = PWBC_Distribution;
 				SWIFT_OBJC_BRIDGING_HEADER = "ProductWithBillCalculator/CommonFile/SWRevealViewController/ProductWithBillCalculator-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
@@ -1575,19 +1571,23 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = ProductWithBillCalculator/ProductWithBillCalculator.entitlements;
-				CODE_SIGN_IDENTITY = "iPhone Distribution: Devang bhavsar (JAC5BA3SM4)";
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				CODE_SIGN_STYLE = Manual;
-				CURRENT_PROJECT_VERSION = 10;
+				CURRENT_PROJECT_VERSION = 3;
 				DEVELOPMENT_TEAM = JAC5BA3SM4;
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = JAC5BA3SM4;
 				INFOPLIST_FILE = ProductWithBillCalculator/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.1;
+				MARKETING_VERSION = 1.2;
+				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = com.dev.ProductWithBillCalculator;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = PWBC_Distribution;
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = PWBC_Distribution;
 				SWIFT_OBJC_BRIDGING_HEADER = "ProductWithBillCalculator/CommonFile/SWRevealViewController/ProductWithBillCalculator-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -1616,25 +1616,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCRemoteSwiftPackageReference section */
-		8807E450270C289C00D36B7D /* XCRemoteSwiftPackageReference "Screenshots" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/dequin-cl/Screenshots.git";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 1.0.0;
-			};
-		};
-/* End XCRemoteSwiftPackageReference section */
-
-/* Begin XCSwiftPackageProductDependency section */
-		8807E451270C289C00D36B7D /* Screenshots */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 8807E450270C289C00D36B7D /* XCRemoteSwiftPackageReference "Screenshots" */;
-			productName = Screenshots;
-		};
-/* End XCSwiftPackageProductDependency section */
 
 /* Begin XCVersionGroup section */
 		889F1C6326DDF49200F7BCAC /* ProductWithBillCalculator.xcdatamodeld */ = {

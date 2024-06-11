@@ -259,8 +259,8 @@ class SpeachListner: NSObject {
             }
         } else {
             DispatchQueue.main.async {
-                Alert().showAlert(message: "Prefer".localized() + " " + "Setting".localized(), viewController: self.viewController!)
-                return
+                Alert().showAlert(message: "Prefer".localized() + " " + "Setting".localized() + " "  + "Switch on Speak Speech Setup", viewController: self.viewController!)
+                return                
             }
         }
     }

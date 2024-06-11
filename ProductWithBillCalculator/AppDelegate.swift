@@ -111,12 +111,12 @@ class AppDelegate: UIResponder, UIApplicationDelegate,SWRevealViewControllerDele
     
     func restoreFromStore(backupName: String){
         DispatchQueue.global(qos: .userInitiated).async {
-            let pred = NSPredicate(value: true)
-            let query = CKQuery(recordType: "CD_BusinessDetails", predicate: pred)
-            let operation = CKQueryOperation(query: query)
-            operation.recordFetchedBlock = { record in
-            }
-            CKContainer.default().publicCloudDatabase.add(operation)
+//            let pred = NSPredicate(value: true)
+//            let query = CKQuery(recordType: "CD_BusinessDetails", predicate: pred)
+//            let operation = CKQueryOperation(query: query)
+//            operation.recordFetchedBlock = { record in
+//            }
+//            CKContainer.default().publicCloudDatabase.add(operation)
         }
     }
     
